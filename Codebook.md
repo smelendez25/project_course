@@ -1,4 +1,4 @@
-The run analysis file is created using the following logic:
+The run analysis script is created in R, using the steps described below:
 
 1- Download the dataset from the following URL --  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2- Unzips the file
@@ -18,6 +18,7 @@ The run analysis file is created using the following logic:
 16- Changes the data activity row to use the activity labels
 17- Saves the mean and std into mean_and_std.csv
 18- Saves the tidy dataset into tidy_dataset.csv
+19- Generate a new dataset with all the average measures for each subject and activity type (30 subjects * 6 activities = 180 rows). The output file is called tidy.txt, and uploaded to this repository.
 
 mean_and_std.csv
 
@@ -104,7 +105,6 @@ fBodyBodyGyroMag.mean..
 fBodyBodyGyroMag.meanFreq..
 fBodyBodyGyroJerkMag.mean..
 fBodyBodyGyroJerkMag.meanFreq..
-
 
 tidy_dataset.csv.csv
 contains 180 rows (including header) and 81 columns (including enumeration column) in a default csv format
