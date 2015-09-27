@@ -21,8 +21,8 @@ The run analysis script is created in R, using the steps described below:
 19- Generate a new dataset with all the average measures for each subject and activity type (30 subjects * 6 activities = 180 rows). The output file is called tidy.txt, and uploaded to this repository.
 
 mean_and_std.csv
-
-Variables
+contains 1 0299 rows and 81 columns in a default csv format
+All measurements are listed below:
 
 id
 activity
@@ -108,8 +108,8 @@ fBodyBodyGyroJerkMag.meanFreq..
 
 tidy_dataset.csv.csv
 contains 180 rows (including header) and 81 columns (including enumeration column) in a default csv format
-variables:
 
+variables:
 id
 activity
 tBodyAcc.std...X_mean
